@@ -8,12 +8,6 @@ go-protoparser is a yet another Go package which parses a Protocol Buffer file (
   - If you don't care about the order of body elements, consider to use the [unordered.Proto struct](https://godoc.org/github.com/yoheimuta/go-protoparser/v4/interpret/unordered#Proto).
   - Or if you want to use the visitor pattern, use the [Visitor struct](https://godoc.org/github.com/yoheimuta/go-protoparser/v4/parser#Visitor).
 
-### Installation
-
-```
-GO111MODULE=on go get github.com/yoheimuta/go-protoparser/v4
-```
-
 ### Example
 
 A Protocol Buffer file versioned 3 which is [an example of the official reference](https://developers.google.com/protocol-buffers/docs/reference/proto3-spec#proto_file).
@@ -599,9 +593,3 @@ This is easier to use.
 ### License
 
 The MIT License (MIT)
-
-### Acknowledgement
-
-Thank you to the proto package: https://github.com/emicklei/proto
-
-I referred to the package for the good proven design, interface and some source code.
